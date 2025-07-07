@@ -11,7 +11,7 @@ public class Main {
         carManagement.listCars();
 
 
-        String Path = "src/resources/Car.json";
+        String Path = "src/main/java/resources/Car.json";
 
         try {
             JsonSerializer.saveToFile(carManagement,Path);

@@ -24,6 +24,9 @@ public class OnlineWorker extends Worker {
         return INTERNET;
     }
 
+    /**
+     * @deprecated This feature will be removed in version 2.0.
+     */
     @Deprecated()
     public double getPriceInternet(String type){
         double price = 0;
@@ -39,6 +42,9 @@ public class OnlineWorker extends Worker {
         return price;
     }
 
+    /**
+     * @deprecated This feature will be removed in version 2.0.
+     */
     @Deprecated()
     public void oldMethod(){
         System.out.println("Another method is not in use");

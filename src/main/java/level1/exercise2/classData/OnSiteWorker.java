@@ -24,6 +24,9 @@ public class OnSiteWorker extends Worker {
         return gasoline;
     }
 
+    /**
+     * @deprecated This feature will be removed in version 2.0.
+     */
     @Deprecated()
     public double calculateGasBonus(double distance){
         double gasBonus = 0;
@@ -41,6 +44,9 @@ public class OnSiteWorker extends Worker {
         return gasBonus;
     }
 
+    /**
+     * @deprecated This feature will be removed in version 2.0.
+     */
     @Deprecated()
     public void oldMethod(){
         System.out.println("Another method is not in use");
